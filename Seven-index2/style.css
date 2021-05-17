@@ -1,0 +1,942 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* 头部导航栏开始 */
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#head {
+    width: 1198px;
+    margin: 0 auto;
+}
+
+.head {
+    display: flex;
+    justify-content: space-around;
+}
+
+.head-img {
+    width: 186px;
+    height: 58px;
+    margin-top: 21px;
+}
+
+
+/* .head-ul li {
+  display: inline-block;
+  margin-top: 40px;
+  padding-right: 65px;
+}
+
+.head-ul li a {
+  color: #333333;
+  font-size: 16px;
+}
+
+.head-ul li a:hover {
+  color: #168BFF;
+} */
+
+
+/* 头部导航 */
+
+#nav-div {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    /* background-color: aquamarine; */
+}
+
+#nav-div li {
+    width: 120px;
+    list-style: none;
+    /* padding-right: 65px; */
+}
+
+#nav-div a {
+    text-decoration: none;
+    /* width: 64px;
+    height: 21px; */
+    font-size: 16px;
+    font-family: MicrosoftYaHei;
+    color: #333333;
+    /* line-height: 21px; */
+}
+
+#nav-div a:hover {
+    color: #2A72FF;
+}
+
+#nav-div li ul {
+    display: none;
+}
+
+#nav-div li:hover ul {
+    display: block;
+    /* width: 100px; */
+}
+
+.nav-li {
+    position: relative;
+    margin-top: 37px;
+}
+
+.nav-li:hover {
+    position: relative;
+    z-index: 8;
+}
+
+.triangle {
+    display: inline;
+    border: 7px solid transparent;
+    border-top: 7px solid #AAAAAA;
+    position: absolute;
+    top: 9px;
+    left: 70px;
+}
+
+.nav-li:hover .triangle {
+    border: 7px solid transparent;
+    border-bottom: 7px solid #2A72FF;
+    position: absolute;
+    top: 1px;
+}
+
+.free {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    width: 88px;
+    height: 100px;
+    background: linear-gradient(360deg, #1664FF 0%, #168BFF 100%);
+}
+
+.free a {
+    color: #FFFFFF !important;
+    font-size: 16px;
+    font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+    font-weight: bold;
+}
+
+
+/* 头部导航栏结束 */
+
+.swiper-pagination {
+    --swiper-pagination-color: #ffffff;
+}
+
+
+/* 轮播图 */
+
+.lb {
+    width: 100%;
+    height: 500px;
+    background: palegoldenrod;
+}
+
+.wrap {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+
+.wrap .ul {
+    width: 100%;
+    height: 500px;
+    position: absolute;
+}
+
+.wrap .ul li {
+    width: 100%;
+    height: 500px;
+}
+
+.wrap .ul li img {
+    width: 100%;
+    height: 100%;
+}
+
+.wrap ol {
+    position: absolute;
+    right: 50%;
+    bottom: 31px;
+}
+
+.wrap ol li {
+    width: 12px;
+    height: 12px;
+    background: #FFFFFF;
+    opacity: 0.5;
+    border-radius: 50%;
+    margin-left: 12px;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+}
+
+.wrap ol .on {
+    background: #fff;
+    opacity: 1;
+}
+
+
+/* 创朝H5游戏代理 */
+
+.agent {
+    width: 100%;
+    height: 547px;
+    background: #FFFFFF;
+}
+
+.agent-item {
+    max-width: 1220px;
+    /* width: 1200px; */
+    height: 547px;
+    background: #FFFFFF;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.agent-item h4 {
+    height: 46px;
+    font-size: 26px;
+    font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+    font-weight: bold;
+    color: #333333;
+    text-align: center;
+    margin-top: 59px;
+    display: flex;
+    justify-content: center;
+}
+
+.agent-item h4 span {
+    height: 46px;
+    line-height: 46px;
+    display: block;
+    margin: 0 20px;
+}
+
+.agent-item h4 img {
+    width: 46px;
+    height: 46px;
+}
+
+.agent-item .p {
+    width: 50px;
+    height: 2px;
+    background: #2D77FF;
+    margin: 0 auto;
+    margin-top: 6px;
+}
+
+.agent-item h5 {
+    height: 21px;
+    font-size: 16px;
+    font-family: MicrosoftYaHei;
+    color: #666666;
+    line-height: 21px;
+    text-align: center;
+    margin-top: 14px;
+    margin-bottom: 54px;
+    font-weight: 500;
+}
+
+.agent-ul {
+    width: 1220px;
+    display: flex;
+    padding-left: 10px;
+}
+
+.agent-ul li {
+    width: 310px;
+    height: 300px;
+    background: #FFFFFF;
+    box-shadow: 1px 5px 12px 4px rgba(13, 37, 62, 0.08);
+    overflow: hidden;
+    margin-right: 135px;
+}
+
+.agent-ul .li {
+    margin-right: 0;
+}
+
+.agent-ul li img {
+    width: 86px;
+    height: 86px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 46px;
+}
+
+.agent-ul li .p1 {
+    height: 31px;
+    font-size: 24px;
+    font-family: MicrosoftYaHei;
+    color: #333333;
+    line-height: 31px;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 29px;
+}
+
+.agent-ul li p {
+    width: 193px;
+    height: 38px;
+    font-size: 14px;
+    font-family: MicrosoftYaHei;
+    color: #666666;
+    line-height: 19px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.agent-ul li .p2 {
+    width: 196px;
+}
+
+.agent-ul li .p3 {
+    width: 249px;
+    text-indent: 2em;
+}
+
+
+/* H5游戏代理流程 */
+
+.flow {
+    width: 100%;
+    height: 410px;
+    background: #F8F9FD;
+}
+
+.lfow-item {
+    max-width: 1220px;
+    /* width: 1220px; */
+    height: 410px;
+    margin: 0 auto;
+    background: #F8F9FD;
+    overflow: hidden;
+}
+
+.lfow-item h4 {
+    height: 46px;
+    font-size: 26px;
+    font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+    font-weight: bold;
+    color: #333333;
+    text-align: center;
+    margin-top: 64px;
+    display: flex;
+    justify-content: center;
+}
+
+.lfow-item h4 span {
+    height: 46px;
+    line-height: 46px;
+    display: block;
+    margin: 0 20px;
+}
+
+.lfow-item h4 img {
+    width: 46px;
+    height: 46px;
+}
+
+.lfow-item .p {
+    width: 50px;
+    height: 2px;
+    background: #2D77FF;
+    margin: 0 auto;
+    margin-top: 6px;
+}
+
+.lfow-item h5 {
+    height: 21px;
+    font-size: 16px;
+    font-family: MicrosoftYaHei;
+    color: #666666;
+    line-height: 21px;
+    text-align: center;
+    margin-top: 14px;
+    margin-bottom: 54px;
+    font-weight: 500;
+}
+
+.flow-ul {
+    width: 1220px;
+    display: flex;
+    padding-left: 10px;
+}
+
+.flow-ul li {
+    width: 277px;
+    height: 106px;
+    background: #FFFFFF;
+    box-shadow: 1px 5px 12px 4px rgba(13, 37, 62, 0.08);
+    display: flex;
+    margin-right: 30px;
+}
+
+.flow-ul .li {
+    margin-right: 0;
+}
+
+.flow-ul li img {
+    width: 40px;
+    height: 40px;
+    margin: 33px 25px 33px 75px;
+}
+
+.flow-ul li .img {
+    margin: 33px 25px 33px 57px;
+}
+
+.flow-ul li p {
+    height: 106px;
+    font-size: 16px;
+    font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+    font-weight: bold;
+    color: #333333;
+    line-height: 106px;
+}
+
+
+/* H5游戏配套平台系统 */
+
+.box {
+    width: 100%;
+    height: 991px;
+    background: #FFFFFF;
+}
+
+.box-item {
+    max-width: 1220px;
+    height: 991px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    overflow: hidden;
+}
+
+.box-item h4 {
+    height: 46px;
+    font-size: 26px;
+    font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+    font-weight: bold;
+    color: #333333;
+    text-align: center;
+    margin-top: 76px;
+    display: flex;
+    justify-content: center;
+}
+
+.box-item h4 span {
+    height: 46px;
+    line-height: 46px;
+    display: block;
+    margin: 0 20px;
+}
+
+.box-item h4 img {
+    width: 46px;
+    height: 46px;
+}
+
+.box-item .p {
+    width: 50px;
+    height: 2px;
+    background: #2D77FF;
+    margin: 0 auto;
+    margin-top: 6px;
+}
+
+.box-item h5 {
+    height: 21px;
+    font-size: 16px;
+    font-family: MicrosoftYaHei;
+    color: #666666;
+    line-height: 21px;
+    text-align: center;
+    margin-top: 14px;
+    margin-bottom: 54px;
+    font-weight: 500;
+}
+
+.box-ul {
+    width: 1220px;
+    padding-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-ul li {
+    width: 320px;
+    height: 320px;
+    background: #FFFFFF;
+    box-shadow: 1px 5px 12px 4px rgba(13, 37, 62, 0.08);
+    margin-right: 120px;
+    margin-bottom: 30px;
+}
+
+.box-ul .li {
+    margin-right: 0;
+}
+
+.box-ul li .img {
+    width: 233px;
+    height: 188px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 21px;
+}
+
+.box-ul li .img1 {
+    width: 174px;
+    height: 176px;
+    margin-top: 30px;
+    margin-bottom: 31px;
+}
+
+.box-ul li img {
+    width: 150px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+
+/* H5游戏配套平台系统 */
+
+.platform {
+    width: 100%;
+    height: 840px;
+    background: #F8F9FD;
+}
+
+.platform-item {
+    max-width: 1264px;
+    height: 840px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #F8F9FD;
+}
+
+.platform-item h4 {
+    height: 46px;
+    font-size: 26px;
+    font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+    font-weight: bold;
+    color: #333333;
+    text-align: center;
+    margin-top: 64px;
+    display: flex;
+    justify-content: center;
+}
+
+.platform-item h4 span {
+    height: 46px;
+    line-height: 46px;
+    display: block;
+    margin: 0 20px;
+}
+
+.platform-item h4 img {
+    width: 46px;
+    height: 46px;
+}
+
+.platform-item .p {
+    width: 50px;
+    height: 2px;
+    background: #2D77FF;
+    margin: 0 auto;
+    margin-top: 6px;
+}
+
+.platform-item h5 {
+    height: 21px;
+    font-size: 16px;
+    font-family: MicrosoftYaHei;
+    color: #666666;
+    line-height: 21px;
+    text-align: center;
+    margin-top: 14px;
+    margin-bottom: 91px;
+    font-weight: 500;
+}
+
+.game-ul {
+    width: 1264px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.game-ul li {
+    width: 158px;
+    height: 145px;
+    overflow: hidden;
+}
+
+.game-ul li img {
+    width: 70px;
+    height: 70px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 17px;
+    margin-top: 39px;
+}
+
+.game-ul li p {
+    font-size: 14px;
+    font-family: MicrosoftYaHei;
+    color: #333333;
+    text-align: center;
+}
+
+
+/* H5投资金额及费用 */
+
+.invest {
+    width: 100%;
+    height: 805px;
+    background: #FFFFFF;
+}
+
+.invest-item {
+    max-width: 1200px;
+    /* width: 1200px; */
+    height: 805px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    overflow: hidden;
+}
+
+.invest-item h4 {
+    height: 46px;
+    font-size: 26px;
+    font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+    font-weight: bold;
+    color: #333333;
+    text-align: center;
+    margin-top: 76px;
+    display: flex;
+    justify-content: center;
+}
+
+.invest-item h4 span {
+    height: 46px;
+    line-height: 46px;
+    display: block;
+    margin: 0 20px;
+}
+
+.invest-item h4 img {
+    width: 46px;
+    height: 46px;
+}
+
+.invest-item .p {
+    width: 50px;
+    height: 2px;
+    background: #2D77FF;
+    margin: 0 auto;
+    margin-top: 6px;
+}
+
+.invest-item h5 {
+    height: 21px;
+    font-size: 16px;
+    font-family: MicrosoftYaHei;
+    color: #666666;
+    line-height: 21px;
+    text-align: center;
+    margin-top: 14px;
+    margin-bottom: 54px;
+    font-weight: 500;
+}
+
+.invest-item table {
+    width: 1200px;
+    height: 418px;
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    margin-bottom: 88px;
+}
+
+tr,
+td {
+    border: 1px solid #DADADA;
+    text-align: center;
+}
+
+td {
+    width: 279px;
+    height: 48px;
+}
+
+td img {
+    width: 27px;
+    height: 27px;
+    display: block;
+    margin: 0 auto;
+}
+
+.td {
+    width: 63px;
+    height: 335px;
+    padding-top: 50px;
+    font-size: 16px;
+    font-family: MicrosoftYaHei;
+    color: #333333;
+    line-height: 21px;
+}
+
+.td p {
+    width: 21px;
+    height: 84px;
+    font-size: 16px;
+    font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+    font-weight: bold;
+    color: #333333;
+    line-height: 21px;
+    margin: 0 auto;
+}
+
+td span {
+    color: #EC2424;
+}
+
+.td-1 {
+    font-size: 16px;
+    font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+    font-weight: bold;
+}
+
+.t {
+    font-size: 16px;
+    font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+    font-weight: bold;
+    color: #333333;
+}
+
+
+/* H5平台演示 */
+
+.show {
+    width: 100%;
+    height: 432px;
+    background: #FFFFFF;
+}
+
+.show-item {
+    /* width: 1200px; */
+    max-width: 1200px;
+    height: 432px;
+    background: #FFFFFF;
+    margin: 0 auto;
+}
+
+.show-ul {
+    width: 1200px;
+    height: 344px;
+    background: #F8F9FD;
+    display: flex;
+}
+
+.show-ul li {
+    width: 400px;
+    height: 344px;
+}
+
+.show-ul li .img1 {
+    width: 233px;
+    height: 188px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 45px;
+    margin-bottom: 21px;
+}
+
+.show-ul li .img {
+    width: 160px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+}
+
+.show-ul li img {
+    width: 178px;
+    height: 178px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 41px;
+    margin-bottom: 35px;
+}
+
+
+/* 底部 */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    width: 100%;
+    height: 400px;
+    background: #303234;
+}
+
+.footer {
+    max-width: 1200px;
+    /* width: 1920px; */
+    height: 340px;
+    margin: 0 auto;
+}
+
+.footer-top {
+    max-width: 1200px;
+    height: 340px;
+    display: flex;
+}
+
+.footer-top .left {
+    width: 746px;
+    height: 340px;
+    padding: 80px 161px 0px 0px;
+}
+
+.footer-top .left img {
+    width: 238px;
+    height: 74px;
+    margin-bottom: 10px;
+}
+
+.footer-top .left p {
+    font-size: 15px;
+    color: #FFFFFF;
+    font-family: MicrosoftYaHei;
+    text-align: center;
+}
+
+
+/* 右边 */
+
+.footer-top .right {
+    width: 1174px;
+    height: 340px;
+    /* background: purple; */
+    padding-top: 80px;
+}
+
+.footer-top .right .ul {
+    width: 1174px;
+    height: 19px;
+    display: flex;
+    /* margin-bottom: 39px; */
+}
+
+.footer-top .right ul li {
+    color: #fff;
+    margin-right: 73px;
+    /* float: left; */
+}
+
+.footer-top .right ul .li1 {
+    margin-right: 0;
+}
+
+.footer-top .right ul .li2 {
+    margin-left: 32px;
+    margin-right: 35px;
+}
+
+.footer-top .right ul li a {
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.footer-top .right img {
+    width: 1174px;
+    height: 61px;
+}
+
+.footer-top .right div {
+    height: 183px;
+    width: 1174px;
+    display: flex;
+}
+
+.footer-top .right div ul {
+    width: 334px;
+    height: 183px;
+    margin-right: 103px;
+}
+
+.footer-top .right div ul li {
+    width: 334px;
+    color: #C8C8C8;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.footer-top .right div ul li span {
+    color: #C8C8C8;
+}
+
+.footer-top .right div ul li a {
+    color: #C8C8C8;
+    margin-right: 30px;
+}
+
+.footer-top .right div ul .li-1 {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.f-bottom {
+    width: 100%;
+    background: #26282A;
+}
+
+.footer-bottom {
+    max-width: 1200px;
+    width: 1920px;
+    height: 60px;
+    display: flex;
+    line-height: 60px;
+    text-align: center;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.footer-bottom p {
+    width: 1920px;
+    height: 60px;
+    background: #26282A;
+    color: #C8C8C8;
+    font-size: 14px;
+    font-family: MicrosoftYaHei;
+}
+
+.footer-bottom img {
+    width: 18px;
+    height: 19px;
+    position: absolute;
+    top: 20px;
+    left: 260px;
+}

@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.top {
+    background-image: url(./images/top.png);
+    width: 100%;
+    height: 736px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.top2 {
+    width: 401px;
+    height: 60px;
+    font-size: 64px;
+    font-family: zihun59hao-chuangcuhei;
+    font-weight: 400;
+    color: #0F7AFF;
+    text-shadow: 0px 6px 10px rgba(66, 65, 66, 0.2);
+}
+
+.top3 {
+    width: 330px;
+    height: 29px;
+    font-size: 30px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: 36px;
+}
+
+.top img {
+    width: 223px;
+    height: 223px;
+    margin-top: 108px;
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img a {
+    margin-top: 19px;
+}

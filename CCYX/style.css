@@ -1,0 +1,529 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* 导航头开始 */
+
+#head {
+    width: 1200px;
+    height: 74px;
+    margin: 0 auto;
+    margin-top: 12px;
+}
+
+.head {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.ul1 {
+    display: flex;
+    float: right;
+}
+
+.ul1 li {
+    width: 64px;
+    height: 21px;
+    font-size: 16px;
+    font-family: MicrosoftYaHei;
+    color: #333333;
+    line-height: 21px;
+    margin-right: 58px;
+    cursor: pointer;
+}
+
+.li {
+    width: 32px !important;
+}
+
+.li1 {
+    margin: 0 !important;
+}
+
+.ul1 li:hover {
+    color: #158AFF;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 352px;
+}
+
+.img1 {
+    width: 50px;
+    height: 50px;
+    margin-right: 9px;
+}
+
+.img2 {
+    width: 142px;
+    height: 35px;
+}
+
+
+/* 导航下面的图 */
+
+.nav-img {
+    height: 350px;
+    background: url(./images/02.png) no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imgdiv {
+    width: 136px;
+    height: 45px;
+    font-size: 34px;
+    font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 45px;
+    margin-bottom: 17px;
+}
+
+.imgdiv2 {
+    width: 168px;
+    height: 21px;
+    font-size: 16px;
+    font-family: MicrosoftYaHei;
+    color: #FFFFFF;
+    line-height: 21px;
+}
+
+
+/* 创朝手游联运系统 */
+
+#lian {
+    height: 514px;
+    /* background-color: aqua; */
+}
+
+.lian {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 55px;
+}
+
+.lian .lian-img {
+    width: 659px;
+    height: 416px;
+}
+
+.text {
+    margin-left: 76px;
+}
+
+.text h1 {
+    width: 208px;
+    height: 35px;
+    font-size: 26px;
+    font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+    font-weight: bold;
+    color: #333333;
+    line-height: 35px;
+    margin-bottom: 10px;
+}
+
+.text ul {
+    margin-top: 10px;
+}
+
+.text ul li {
+    display: flex;
+    margin-top: 26px;
+}
+
+.text ul li img {
+    width: 13px;
+    height: 13px;
+    margin-right: 11px;
+    margin-top: 3px;
+}
+
+.text ul li p {
+    font-size: 14px;
+}
+
+
+/* 功能优势 */
+
+#gong {
+    height: 816px;
+    background: #F8F9FD;
+}
+
+.span {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+
+.span span {
+    width: 104px;
+    height: 35px;
+    font-size: 26px;
+    font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+    font-weight: bold;
+    color: #333333;
+    line-height: 35px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#gong ul {
+    width: 1200px;
+    height: 580px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#gong ul li {
+    width: 270px;
+    height: 270px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 9px 2px rgba(13, 37, 62, 0.08);
+    border-radius: 4px;
+    margin-right: 39px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#gong ul li img {
+    width: 68px;
+    height: 68px;
+}
+
+.gong-li {
+    margin-right: 0 !important;
+}
+
+.gong-li p {
+    margin-bottom: 20px;
+}
+
+.gong-li1 {
+    margin-right: 0 !important;
+}
+
+#gong ul li h2 {
+    margin-top: 30px;
+    margin-bottom: 16px;
+}
+
+#gong-p {
+    margin-bottom: 20px;
+}
+
+
+/* PC官网 */
+
+#pc {
+    height: 563px;
+    /* background: rosybrown; */
+}
+
+.pc {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding-top: 79px;
+}
+
+.pc-img {
+    width: 484px;
+    height: 402px;
+    margin-right: 179px;
+}
+
+.content-p {
+    width: 459px;
+    height: 63px;
+    font-size: 16px;
+    font-family: MicrosoftYaHei;
+    color: #333333;
+    line-height: 21px;
+    margin-top: 24px;
+    margin-bottom: 14px;
+}
+
+.content ul li {
+    display: flex;
+    cursor: pointer;
+}
+
+.content-ul li {
+    margin-bottom: 11px;
+}
+
+.content-ul li a {
+    width: 64px;
+    height: 21px;
+    font-size: 16px;
+    font-family: MicrosoftYaHei;
+    color: #158AFF;
+    line-height: 21px;
+}
+
+.content-ul li img {
+    width: 18px;
+    height: 18px;
+    padding-top: 3px;
+    margin-right: 11px;
+}
+
+.content-ul2 {
+    display: flex;
+}
+
+.content-ul2 li {
+    margin-right: 83px;
+    cursor: pointer;
+}
+
+.content-ul2 li img {
+    width: 19px;
+    height: 19px;
+}
+
+.content-ul2 li a {
+    width: 56px;
+    height: 19px;
+    font-size: 14px;
+    font-family: MicrosoftYaHei;
+    color: #666666;
+    line-height: 19px;
+}
+
+.content-img {
+    margin-top: 25px;
+    margin-bottom: 17px;
+}
+
+
+/* 统一管理后台 */
+
+.tong-img {
+    width: 484px;
+    height: 402px;
+    margin-left: 142px;
+}
+
+#tong {
+    height: 563px;
+    background: #F8F9FD;
+}
+
+
+/* WAP端 */
+
+.WAP-img {
+    width: 630px;
+    height: 308px;
+    margin-right: 85px;
+}
+
+
+/* 推广联盟 */
+
+.content-ul-a {
+    width: 80px !important;
+}
+
+
+/* APP盒子 */
+
+.app-img {
+    width: 562px;
+    height: 443px;
+    margin-right: 179px;
+}
+
+
+/* 专属渠道SDK */
+
+.zhuan-img {
+    width: 391px;
+    height: 443px;
+    margin-left: 179px;
+}
+
+.contentt-p {
+    width: 544px;
+    height: 63px;
+    font-size: 16px;
+    font-family: MicrosoftYaHei;
+    color: #333333;
+    line-height: 21px;
+    margin-top: 24px;
+    margin-bottom: 14px;
+}
+
+
+/* 底部 */
+
+footer {
+    width: 100%;
+    height: 233px;
+    background: #303234;
+}
+
+.footer {
+    max-width: 1200px;
+    height: 233px;
+    margin: 0 auto;
+}
+
+.footer-top {
+    max-width: 1200px;
+    height: 233px;
+    display: flex;
+    overflow: hidden;
+}
+
+.footer-top .left {
+    width: 226px;
+    height: 233px;
+    margin-top: 49px;
+    overflow: hidden;
+    margin-right: 124px;
+}
+
+.footer-top .left img {
+    width: 200px;
+    height: 45px;
+}
+
+
+/* .img2 {
+    width: 142px;
+    height: 35px;
+}
+ */
+
+.footer-top .left p {
+    height: 19px;
+    font-size: 14px;
+    font-family: MicrosoftYaHei;
+    color: #FFFFFF;
+    line-height: 19px;
+    text-align: left;
+    margin-top: 12px;
+}
+
+.center {
+    display: flex;
+    padding-top: 61px;
+}
+
+.center ul {
+    width: 334px;
+    height: 183px;
+}
+
+.center .ul2 {
+    margin-left: 94px;
+}
+
+.center ul li {
+    width: 338px;
+    color: #C8C8C8;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.center ul li span {
+    color: #C8C8C8;
+}
+
+.center ul li a {
+    color: #C8C8C8;
+    margin-right: 30px;
+}
+
+.center ul .li-1 {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.right {
+    width: 84px;
+    margin-top: 61px;
+}
+
+.right img {
+    width: 84px;
+    height: 84px;
+}
+
+.right p {
+    width: 64px;
+    height: 19px;
+    font-size: 14px;
+    font-family: MicrosoftYaHei;
+    color: #C8C8C8;
+    line-height: 19px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+/* 最底部 */
+
+.f-bottom {
+    width: 100%;
+    background: #26282A;
+}
+
+.footer-bottom {
+    max-width: 1200px;
+    width: 1920px;
+    height: 60px;
+    display: flex;
+    line-height: 60px;
+    text-align: center;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.footer-bottom p {
+    width: 1920px;
+    height: 60px;
+    background: #26282A;
+    color: #C8C8C8;
+    font-size: 14px;
+    font-family: MicrosoftYaHei;
+}
+
+.footer-bottom img {
+    width: 18px;
+    height: 19px;
+    position: absolute;
+    top: 20px;
+    left: 260px;
+}
