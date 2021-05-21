@@ -1,0 +1,559 @@
+html{
+	font-size: calc(100vw / 7.5);
+}
+/* 头部 */
+.head{
+    width: 100%;
+    height: 0.88rem;
+    background: #fff;
+    display: flex;
+    position: relative;
+}
+.head .im1{
+    width: 0.5rem;
+    height: 0.5rem;
+    display: block;
+    margin: auto 0;
+    margin-left: 0.34rem;
+    margin-right: 0.2rem;
+}
+.head .im2{
+    width: 1.51rem;
+    height: 0.35rem;
+    display: block;
+    margin: auto 0;
+}
+.head .im3{
+    width: 0.34rem;
+    height: 0.34rem;
+    position: absolute;
+    top: 0.28rem;
+    right: 0.27rem;
+}
+/* 导航 */
+.nav{
+    width: 2.07rem;
+    height: 3.41rem;
+    background:rgba(0, 0, 0, 0.78);
+    border-radius: 0.08rem;
+    position: absolute;
+    top: 0.99rem;
+    right: 0.12rem;
+    z-index: 99;
+    display: none;
+}
+.nav ul{
+    width: 2.07rem;
+    height: 3.41rem;
+    padding: 0 0.26rem 0 0.27rem;
+}
+.nav ul li{
+    height: 0.56rem;
+    border-bottom: 0.01rem solid #FFFFFF;
+    font-size: 0.20rem;
+    font-family: MicrosoftYaHei;
+    color: #E3E3E3;
+    line-height: 0.56rem;
+    text-align: center;
+}
+.nav ul li:nth-child(6){
+    border-bottom: none;
+}
+.nav ul li a{
+    color: #E3E3E3;
+}
+/* 轮播 */
+.banner{
+    width: 100%;
+    height: 3.62rem;
+    background-color: palevioletred;
+    position: relative;
+}
+.wrap{
+    width: 100%;
+    height: 3.62rem;
+    position: relative;
+    overflow: hidden;
+}
+.wrap .ul{
+    width: 100%;
+    height: 3.62rem;
+    position: absolute;
+}
+.wrap .ul li{
+    width: 100%;
+    height: 3.62rem;
+}
+.wrap .ul li img{
+    width: 100%;
+    height: 100%;
+}
+.wrap ol {
+    position: absolute;
+    right: 50%;
+    bottom: 0.3rem;
+}
+.wrap ol li{
+    width: 0.10rem;
+    height: 0.10rem;
+    background: #fff;
+    opacity: 0.5;
+    border-radius: 50%;
+    margin-left: 0.10rem;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+}
+.wrap ol .on{
+    background: #fff;
+    opacity: 1;
+}
+
+
+
+/* 平台系统 */
+.plat{
+    width: 100%;
+    height: 3.67rem;
+    background: #FFFFFF;
+    overflow: hidden;
+}
+.plat h5{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.56rem;
+    margin-bottom: 0.39rem;
+}
+.plat h5 span{
+    display: block;
+    font-size: 0.28rem;
+    font-weight: bold;
+    color: #333333;
+    margin: 0 0.26rem;
+}
+.plat h5 img{
+    width: 0.34rem;
+    height: 0.34rem;
+}
+.pl-ul{
+    display: flex;
+    padding-left: 0.3rem;
+}
+.pl-ul li{
+    width: 1.60rem;
+    height: 1.60rem;
+    background: #FFFFFF;
+    overflow: hidden;
+    box-shadow: 0.01rem 0.02rem 0.08rem 0.02rem rgba(13, 37, 62, 0.08);
+    margin-right: 0.16rem;
+}
+.pl-ul li img{
+    width: 0.58rem;
+    height: 0.58rem;
+    display: block;
+    margin: 0 auto;
+    margin-top: 0.28rem;
+    margin-bottom: 0.2rem;
+}
+.pl-ul li p{
+    height: 0.26rem;
+    font-size: 0.20rem;
+    font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+    font-weight: bold;
+    color: #666666;
+    line-height: 0.26rem;
+    text-align: center;
+}
+
+/* 关于创朝手游 */
+.about{
+    width: 100%;
+    height: 3.27rem;
+    background: #fff;
+    display: flex;
+
+}
+.about img{
+    width: 2.94rem;
+    height: 2.49rem;
+    margin-left: 0.21rem;
+    margin-right: 0.48rem;
+}
+.ab-div{
+    overflow: hidden;
+    position: relative;
+}
+.ab-div h5{
+    height: 0.36rem;
+    font-size: 0.26rem;
+    font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+    font-weight: bold;
+    color: #333333;
+    line-height: 0.36rem;
+    margin: 0.29rem 0 0.21rem 0;
+}
+.ab-div .p1{
+    width: 0.69rem;
+    height: 0.02rem;
+    background: #333333;
+    margin-bottom: 0.12rem;
+}
+.ab-div .p2{
+    width: 3.40rem;
+    height: 1.44rem;
+    font-size: 0.20rem;
+    font-family: MicrosoftYaHeiLight;
+    color: #333333;
+    line-height: 0.36rem;  
+}
+.ab-div .p3{
+    width: 3.30rem;
+    height: 0.52rem;
+    font-size: 0.40rem;
+    font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+    font-weight: bold;
+    color: #999;
+    line-height: 0.52rem;
+    opacity: 0.1;
+    position: absolute;
+    top: 0.05rem;
+    left: 0.47rem;
+}
+
+/* 我们的品牌优势 */
+.adv{
+    width: 100%;
+    height: 5.32rem;
+    background: palegoldenrod;
+    overflow: hidden;
+    background: url(./images/bg.png) no-repeat;
+    background-size: 100% 100%;
+}
+.adv h3{
+    height: 0.36rem;
+    font-size: 0.26rem;
+    font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 0.36rem;
+    text-align: center;
+    margin: 0.39rem 0 0.11rem 0;
+}
+.adv .p1{
+    width: 0.94rem;
+    height: 0.01rem;
+    background: #FFFFFF;
+    margin: 0 auto;
+    margin-bottom: 0.13rem;
+}
+.adv .p2{
+    width: 5.04rem;
+    height: 0.52rem;
+    font-size: 0.18rem;
+    font-family: MicrosoftYaHeiLight;
+    color: #FFFFFF;
+    line-height: 0.26rem;
+    opacity: 0.6;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 0.49rem;
+}
+.adv-ul{
+    display: flex;
+    padding: 0 0.3rem;
+    flex-wrap: wrap;
+}
+.adv-ul li{
+    width: 3.10rem;
+    height: 1.20rem;
+    background-color: rgba(255, 255, 255,0.32);
+    border-radius: 0.03rem;
+    padding-top: 0.15rem;
+    padding-left: 0.21rem;
+    margin-right: 0.7rem;
+    margin-bottom: 0.28rem;
+}
+.adv-ul li:nth-child(2n){
+    margin-right:0;
+}
+.adv-ul li .p-1{
+    height: 0.31rem;
+    font-size: 0.24rem;
+    font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 0.31rem;
+    margin-bottom: 0.05rem;
+}
+.adv-ul li .p-2{
+    width: 2.66rem;
+    height: 0.54rem;
+    font-size: 0.20rem;
+    font-family: MicrosoftYaHeiLight;
+    color: #FFFFFF;
+    line-height: 0.27rem;
+    opacity: 0.7;
+}
+/* 主营游戏项目 */
+.game{
+    width: 100%;
+    height: 4.43rem;
+    background: url(./images/bg1.png) no-repeat right bottom;
+    background-size: 4.50rem 3.43rem;
+    overflow: hidden;
+    padding-left: 0.32rem;
+    position: relative;
+}
+.game h4{
+    height: 0.36rem;
+    font-size: 0.26rem;
+    font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+    font-weight: bold;
+    color: #333333;
+    line-height: 0.36rem;
+    margin: 1.02rem 0 0.2rem 0;
+}
+.game .p1{
+    width: 0.57rem;
+    height: 0.01rem;
+    background: #333333;
+    margin-bottom: 0.18rem;
+}
+.game .p2{
+    width: 2.43rem;
+    height: 2.16rem;
+    font-size: 0.20rem;
+    font-family: MicrosoftYaHeiLight;
+    color: #333333;
+    line-height: 0.36rem;
+}
+.game .p3{
+    height: 0.47rem;
+    font-size: 0.36rem;
+    font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+    font-weight: bold;
+    color: #999;
+    line-height: 0.47rem;
+    opacity: 0.1;
+    position: absolute;
+    top: 0.8rem;
+    left: 0.83rem;
+}
+/* 网络手游 */
+.network{
+    width: 100%;
+    height: 3.69rem;
+    background: #fff;
+    overflow: hidden;
+}
+.net-ul{
+    display: flex;
+    height: 3.69rem;
+    margin-top: 0.43rem;
+    padding: 0 0.3rem;
+    white-space: nowrap;
+    overflow-y:auto;
+}
+.net-ul li{
+    width: 2.20rem;
+    height: 2.62rem;
+    box-shadow: 0.01rem 0.05rem 0.12rem 0.04rem rgba(13, 37, 62, 0.08);
+    margin-right: 0.15rem;
+    background: #fff;
+    padding: 0.05rem;
+}
+
+/* .net-ul li:hover{
+    transition: all 0.4s;
+    transform: scale(1.1);
+} */
+.net-ul li img{
+    width: 2.1rem;
+    height: 1.1rem;
+    display: block;
+}
+.net-ul li div{
+    display: flex;
+    margin-top: 0.19rem;
+}
+.net-ul li div img{
+    width: 0.22rem;
+    height: 0.22rem;
+    display: block;
+    margin: auto 0;
+}
+.net-ul li div p{
+    height: 0.24rem;
+    font-size: 0.18rem;
+    font-family: MicrosoftYaHei;
+    color: #999999;
+    line-height: 0.24rem;
+    margin-left: 0.07rem;
+}
+/* 平台资质 */
+.zz{
+    width: 100%;
+    height: 4.19rem;
+    background: #F8F9FD;
+    overflow: hidden;
+}
+
+.zz h5{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.63rem;
+    margin-bottom: 0.39rem;
+}
+.zz h5 span{
+    display: block;
+    font-size: 0.28rem;
+    font-weight: bold;
+    color: #333333;
+    margin: 0 0.26rem;
+}
+.zz h5 img{
+    width: 0.34rem;
+    height: 0.34rem;
+}
+.z-ul{
+    width: 100%;
+    height: 2.16rem;
+    display: flex;
+    padding-left: 0.3rem;
+    /* white-space: nowrap;
+    overflow-y:auto; */
+}
+.z-ul li{
+    width: 1.59rem;
+    height: 2.16rem;
+    margin-right: 0.17rem;
+}
+.z-ul li img{
+    width: 1.59rem;
+    height: 2.16rem;
+}
+/* 游戏 */
+.g{
+    width: 100%;
+    height: 5.94rem;
+    background: #fff;
+}
+.g-ul{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.g-ul li{
+    width: 25%;
+    height: 1.9rem;
+}
+.g-ul li img{
+    width: 1rem;
+    height: 1rem;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.1rem;
+    margin-top: 0.4rem;
+}
+.g-ul li p{
+    height: 0.26rem;
+    font-size: 0.20rem;
+    font-family: MicrosoftYaHei;
+    color: #333333;
+    line-height: 0.26rem;
+    text-align: center;
+}
+
+/* 底部 */
+.foot{
+    width: 100%;
+    height: 2.18rem;
+    background: #303234;
+    overflow: hidden;
+    position: relative;
+}
+.div{
+    display: flex;
+    margin: 0.41rem 0 0.1rem 0.31rem;
+}
+.div .img1{
+    width: 0.56rem;
+    height: 0.56rem;
+    margin-right: 0.22rem;
+}
+.div .img2{
+    width: 1.73rem;
+    height: 0.4rem;
+    display: block;
+    margin: auto 0;
+}
+.foot .p{
+    height: 0.24rem;
+    font-size: 0.18rem;
+    font-family: MicrosoftYaHei;
+    color: #FFFFFF;
+    line-height: 0.24rem;
+    padding-left:0.31rem;
+    margin-bottom: 0.16rem;
+    opacity: 0.8;
+}
+.foot .p1{
+    height: 0.26rem;
+    font-size: 0.20rem;
+    font-family: MicrosoftYaHei;
+    color: #C1C1C1;
+    line-height: 0.26rem;
+    padding-left: 0.3rem;
+    margin-bottom: 0.04rem;
+}
+.foot .p2{
+    height: 0.26rem;
+    font-size: 0.20rem;
+    font-family: MicrosoftYaHei;
+    color: #C1C1C1;
+    line-height: 0.26rem;
+    padding-left: 0.3rem;
+}
+.foot .d1{
+    width: 0.96rem;
+    /* height: 0.96rem; */
+    position: absolute;
+    top: 0.36rem;
+    right: 0.3rem;
+}
+.foot .d1 img{
+    width: 0.96rem;
+    height: 0.96rem;
+    display: block;
+    margin-bottom: 0.12rem;
+}
+.foot .d1 p{
+    height: 0.24rem;
+    font-size: 0.18rem;
+    font-family: MicrosoftYaHei;
+    color: #C8C8C8;
+    line-height: 0.24rem;
+    text-align: center;
+}
+.foot-b{
+    width: 100%;
+    height: 0.52rem;
+    display: flex;
+    background: #26282A;
+    justify-content: center;
+}
+.foot-b p{
+    font-size: 0.18rem;
+    font-family: MicrosoftYaHei;
+    color: #9A9A9A;
+    line-height: 0.52rem;
+    text-align: center;
+    
+}
+.foot-b img{
+    width: 0.18rem;
+    height: 0.19rem;
+    display: block;
+    margin: auto 0;
+    margin-right: 0.08rem;
+}

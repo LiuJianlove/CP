@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./head.css">
+</head>
+
+<body>
+    <!-- 导航 -->
+    <div class="nav">
+        <div class="nav-text">
+            <div class="nav-l">
+                <img src="./images/logo.png" class="img1">
+                <img src="./images/logo1.png" class="img2">
+            </div>
+            <ul class="nav-r" id="ul">
+                <li><a href="#">首页</a></li>
+                <li><a href="#">游戏产品</a></li>
+                <li><a href="#">代理加盟</a></li>
+                <li><a href="#">手游联运</a></li>
+                <li class="li"><a href="#">新闻资讯</a></li>
+                <li><a href="#">联系我们</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+<script>
+    window.onload = function () {
+        var ul = document.getElementById("ul");
+        var li = ul.getElementsByTagName("li");
+
+        for (var i = 0; i < li.length; i++) {
+            li[i].index = i;
+            li[i].onclick = function () {
+                for (var i = 0; i < li.length; i++) {
+                    li[i].className = "";
+                }
+                this.className = "li";
+            }
+
+        }
+    }
+</script>
+
+</html>

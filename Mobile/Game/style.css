@@ -1,0 +1,441 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* html {
+    font-size: calc(100vw / 7.5);
+} */
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* 导航头开始 */
+
+.head {
+    /* max-width: 750px; */
+    height: 88px;
+    background: #fff;
+    display: flex;
+    position: relative;
+}
+
+.head .im1 {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: auto 0;
+    margin-left: 34px;
+    margin-right: 20px;
+}
+
+.head .im2 {
+    width: 151px;
+    height: 35px;
+    display: block;
+    margin: auto 0;
+}
+
+.head .im3 {
+    width: 33px;
+    height: 26px;
+    position: absolute;
+    top: 32px;
+    right: 36px;
+}
+
+
+/* 导航 */
+
+.nav {
+    width: 207px;
+    height: 341px;
+    background: rgba(0, 0, 0, 0.78);
+    border-radius: 8px;
+    position: absolute;
+    top: 99px;
+    right: 12px;
+    z-index: 99;
+    display: none;
+}
+
+.nav ul {
+    width: 207px;
+    height: 341px;
+    padding: 0 26px 0 27px;
+}
+
+.nav ul li {
+    height: 56px;
+    border-bottom: 1px solid #FFFFFF;
+    font-size: 20px;
+    font-family: MicrosoftYaHei;
+    color: #E3E3E3;
+    opacity: 0.7;
+    line-height: 56px;
+    text-align: center;
+}
+
+.nav ul li:nth-child(6) {
+    border-bottom: none;
+}
+
+.nav ul li a {
+    color: #E3E3E3;
+}
+
+
+/* 导航头结束 */
+
+
+/* 导航下面的图 */
+
+.nav-img {
+    height: 260px;
+    background: url(./images/12.png) no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imgdiv {
+    width: 128px;
+    height: 42px;
+    font-size: 32px;
+    font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 42px;
+    margin-bottom: 12px;
+}
+
+.imgdiv2 {
+    width: 136px;
+    height: 21px;
+    font-size: 16px;
+    font-family: MicrosoftYaHei;
+    color: #FFFFFF;
+    line-height: 21px;
+}
+
+
+/* 图 */
+
+#pic {
+    margin-top: 85px;
+}
+
+.pic {
+    display: flex;
+    justify-content: center;
+}
+
+.pic img {
+    width: 100px;
+    height: 100px;
+    margin-right: 82px;
+}
+
+.pic1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.pic8 {
+    margin-right: 0 !important;
+}
+
+
+/* 游戏特色 */
+
+.span {
+    display: flex;
+    justify-content: center;
+    margin-top: 73px;
+    margin-bottom: 36px;
+}
+
+.span span {
+    width: 112px;
+    height: 37px;
+    font-size: 28px;
+    font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+    font-weight: bold;
+    color: #333333;
+    line-height: 37px;
+    margin-left: 26px;
+    margin-right: 26px;
+}
+
+
+/* 轮播 */
+
+.swiper-container {
+    width: 660px;
+    height: 302px;
+    position: relative;
+}
+
+.swiper-container {
+    background: #999;
+    width: 660px;
+    height: 302px;
+    box-sizing: border-box;
+}
+
+
+/*.nav-swipper .swiper-wrapper{margin: 0px 24px;}*/
+
+.swiper-slide {
+    width: 660px;
+    height: 302px;
+    margin: 0px;
+    text-align: center;
+    align-items: center;
+}
+
+.swipper {
+    width: 720px;
+    margin: 0 auto;
+    padding: 0px 24px;
+    position: relative;
+    /* background-color: sandybrown; */
+}
+
+.swipper .swiper-button-prev {
+    top: 50%;
+    /* background-image: url(../images/swiper-pre.png); */
+    color: rgba(0, 0, 0, 0)!important;
+    background: url("./images/left.png") center center no-repeat;
+    background-size: 50px 50px;
+    left: 0;
+    /* right: auto; */
+    width: 16px;
+    height: 50px;
+}
+
+.swipper .swiper-button-next {
+    top: 50%;
+    /* background-image: url(../images/swiper-next.png); */
+    color: rgba(0, 0, 0, 0)!important;
+    background: url("./images/right.png") center center no-repeat;
+    background-size: 50px 50px;
+    /* left: auto; */
+    right: 0;
+    width: 16px;
+    height: 50px;
+}
+
+.dan {
+    width: 660px;
+    height: 38px;
+    line-height: 38px;
+    background: rgba(0, 0, 0, 0.55);
+    position: absolute;
+    bottom: 0;
+    z-index: 9;
+}
+
+.dan p {
+    width: 204px;
+    height: 26px;
+    text-align: center;
+    font-size: 20px;
+    font-family: MicrosoftYaHei;
+    color: #FFFFFF;
+    line-height: 26px;
+    letter-spacing: 6px;
+    margin-left: 22px;
+    display: inline;
+}
+
+
+/* 轮播下面的图 */
+
+.pics {
+    width: 660px;
+    /* height: 142px; */
+    height: 92px;
+    margin: 0 auto;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+.pics::-webkit-scrollbar {
+    height: 4px;
+    width: 660px;
+}
+
+.pics::-webkit-scrollbar-thumb {
+    /*滚动条里面小方块*/
+    border-radius: 4px;
+    background-color: #6AAEFF;
+}
+
+.pics::-webkit-scrollbar-track {
+    /*滚动条里面轨道*/
+    background: #F0F0F0;
+}
+
+.pics img {
+    width: 140px;
+    height: 80px;
+    margin-right: 9px;
+}
+
+.pics-img {
+    margin: 0 !important;
+}
+
+
+/* 我们的客户 */
+
+.spans {
+    display: flex;
+    justify-content: center;
+    margin-top: 73px;
+    margin-bottom: 36px;
+}
+
+.spans span {
+    width: 140px;
+    height: 37px;
+    font-size: 28px;
+    font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+    font-weight: bold;
+    color: #333333;
+    line-height: 37px;
+    margin-left: 26px;
+    margin-right: 26px;
+}
+
+
+/* 接近底部的图 */
+
+#picc {
+    margin-top: 41px;
+    margin-bottom: 62px;
+}
+
+.picc {
+    display: flex;
+    justify-content: center;
+}
+
+.picc img {
+    width: 143px;
+    height: 80px;
+}
+
+
+/* 底部 */
+
+.foot {
+    /* width: 749px; */
+    margin: 0 auto;
+    margin-top: 40px;
+    height: 200px;
+    background: #303234;
+    overflow: hidden;
+    position: relative;
+}
+
+.div {
+    display: flex;
+    margin: 41px 0 10px 31px;
+}
+
+.div .div-img1 {
+    width: 56px;
+    height: 56px;
+    margin-right: 22px;
+}
+
+.div .div-img2 {
+    width: 173px;
+    height: 40px;
+    display: block;
+    margin: auto 0;
+}
+
+.foot #p {
+    /* width: 283px; */
+    /* height: 24px; */
+    font-size: 20px;
+    font-family: MicrosoftYaHei;
+    color: #FFFFFF;
+    line-height: 26px;
+    padding-left: 31px;
+    margin-bottom: 12px;
+    opacity: 0.8;
+}
+
+.foot #p2 {
+    /* height: 26px; */
+    font-size: 20px;
+    font-family: MicrosoftYaHei;
+    color: #C1C1C1;
+    line-height: 26px;
+    padding-left: 30px;
+}
+
+.foot .d1 {
+    width: 96px;
+    position: absolute;
+    top: 36px;
+    right: 30px;
+}
+
+.foot .d1 img {
+    width: 96px;
+    height: 96px;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.foot .d1 p {
+    height: 24px;
+    font-size: 18px;
+    font-family: MicrosoftYaHei;
+    color: #C8C8C8;
+    line-height: 24px;
+    text-align: center;
+}
+
+.foot-b {
+    /* width: 749px; */
+    margin: 0 auto;
+    height: 52px;
+    display: flex;
+    background: #26282A;
+    justify-content: center;
+}
+
+.foot-b p {
+    font-size: 20px;
+    font-family: MicrosoftYaHei;
+    color: #9A9A9A;
+    line-height: 52px;
+    text-align: center;
+}
+
+.foot-b img {
+    width: 18px;
+    height: 19px;
+    display: block;
+    margin: auto 0;
+    margin-right: 8px;
+}

@@ -1,0 +1,520 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* 导航头开始 */
+
+.head {
+    /* width: 100%; */
+    height: 88px;
+    background: #fff;
+    display: flex;
+    position: relative;
+}
+
+.head .im1 {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: auto 0;
+    margin-left: 34px;
+    margin-right: 20px;
+}
+
+.head .im2 {
+    width: 151px;
+    height: 35px;
+    display: block;
+    margin: auto 0;
+}
+
+.head .im3 {
+    width: 33px;
+    height: 26px;
+    position: absolute;
+    top: 32px;
+    right: 36px;
+}
+
+
+/* 导航 */
+
+.nav {
+    width: 207px;
+    height: 341px;
+    background: rgba(0, 0, 0, 0.78);
+    border-radius: 8px;
+    position: absolute;
+    top: 99px;
+    right: 12px;
+    z-index: 99;
+    display: none;
+}
+
+.nav ul {
+    width: 207px;
+    height: 341px;
+    padding: 0 26px 0 27px;
+}
+
+.nav ul li {
+    height: 56px;
+    border-bottom: 1px solid #FFFFFF;
+    font-size: 20px;
+    font-family: MicrosoftYaHei;
+    color: #E3E3E3;
+    opacity: 0.7;
+    line-height: 56px;
+    text-align: center;
+}
+
+.nav ul li:nth-child(6) {
+    border-bottom: none;
+}
+
+.nav ul li a {
+    color: #E3E3E3;
+}
+
+
+/* 导航下面的图 */
+
+.nav-img {
+    height: 350px;
+    background: url(./images/12.png) no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imgdiv {
+    /* width: 136px; */
+    height: 45px;
+    font-size: 34px;
+    font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 45px;
+    margin-bottom: 17px;
+}
+
+.imgdiv2 {
+    /* width: 168px; */
+    height: 21px;
+    font-size: 16px;
+    font-family: MicrosoftYaHei;
+    color: #FFFFFF;
+    line-height: 21px;
+}
+
+
+/* 主营游戏 */
+
+.game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.span {
+    display: flex;
+    justify-content: center;
+    margin-top: 61px;
+    margin-bottom: 42px;
+}
+
+.span span {
+    width: 112px;
+    height: 37px;
+    font-size: 28px;
+    font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+    font-weight: bold;
+    color: #333333;
+    line-height: 37px;
+    margin-left: 26px;
+    margin-right: 26px;
+}
+
+.game-list {
+    display: flex;
+    justify-content: center;
+}
+
+.game-img {
+    width: 210px;
+    height: 110px;
+    margin-bottom: 18px;
+    margin-top: 6px;
+    margin-left: 5px;
+}
+
+.bt {
+    width: 220px;
+    height: 262px;
+    background: #FFFFFF;
+    box-shadow: 1px 5px 12px 4px rgba(13, 37, 62, 0.08);
+}
+
+.in {
+    width: 220px;
+    height: 262px;
+    background: #FFFFFF;
+    margin-left: 15px;
+    margin-right: 15px;
+    box-shadow: 1px 5px 12px 4px rgba(13, 37, 62, 0.08);
+}
+
+.gm {
+    width: 220px;
+    height: 262px;
+    background: #FFFFFF;
+    box-shadow: 1px 5px 12px 4px rgba(13, 37, 62, 0.08);
+}
+
+.game-list span {
+    width: 151px;
+    height: 24px;
+    font-size: 18px;
+    font-family: MicrosoftYaHei;
+    color: #999999;
+    line-height: 24px;
+    margin-left: 9px;
+}
+
+.game-div {
+    margin-left: 7px;
+}
+
+.game-div2 {
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+
+.game-div div {
+    display: flex;
+    align-items: center;
+}
+
+.game-div span {
+    width: 192px;
+}
+
+
+/* 运营培训 */
+
+.yun {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 109px;
+}
+
+.yun img {
+    width: 294px;
+    height: 249px;
+    margin-right: 57px;
+}
+
+.yun-div {
+    width: 340px;
+    height: 257px;
+}
+
+.yun-div h1 {
+    width: 104px;
+    height: 35px;
+    font-size: 26px;
+    font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+    font-weight: bold;
+    color: #333333;
+    line-height: 35px;
+    margin-bottom: 21px;
+}
+
+.p1 {
+    width: 340px;
+    height: 52px;
+    font-size: 20px;
+    font-family: MicrosoftYaHei;
+    color: #333333;
+    line-height: 26px;
+}
+
+.p2 {
+    width: 340px;
+    height: 135px;
+    font-size: 20px;
+    font-family: MicrosoftYaHeiLight;
+    color: #333333;
+    line-height: 27px;
+    margin-top: 25px;
+    opacity: 0.8;
+}
+
+
+/* 合作流程 */
+
+#he {
+    /* width: 100%; */
+    height: 350px;
+    background: #F8F9FD;
+}
+
+#he .span {
+    padding-top: 50px;
+}
+
+.he-img {
+    width: 749px;
+    height: 104px;
+    display: block;
+    margin: 0 auto;
+}
+
+#he ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+#he ul li {
+    width: 80px;
+    height: 26px;
+    margin: 0 64px 0 0;
+    font-size: 20px;
+    font-family: MicrosoftYaHei;
+    color: #333333;
+    line-height: 26px;
+}
+
+.he-li {
+    margin: 0 !important;
+}
+
+
+/* 保姆 */
+
+#bao {
+    max-width: 749px;
+    margin: 0 auto;
+    height: 530px;
+    background-color: #FFFFFF;
+}
+
+.baobao {
+    max-width: 749px;
+    margin: 0 auto;
+}
+
+.bao {
+    /* background-color: teal; */
+    max-width: 749px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 46px !important;
+    /* margin-left: 361px; */
+    position: relative;
+}
+
+.bao-div {
+    width: 86px;
+    height: 57px;
+    border: 4px solid #D4D4D4;
+    border-bottom: transparent;
+    border-right: transparent;
+    position: absolute;
+    left: 33px;
+}
+
+.bao-span {
+    width: 133px;
+    height: 30px;
+    font-size: 26px;
+    font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+    font-weight: bold;
+    color: #333333;
+    line-height: 30px;
+    float: left;
+    z-index: 3;
+    position: absolute;
+    top: 35px;
+    left: 65px;
+}
+
+.bao-p {
+    width: 640px;
+    height: 81px;
+    font-size: 20px;
+    font-family: MicrosoftYaHeiLight;
+    color: #333333;
+    opacity: 0.8;
+    line-height: 27px;
+    position: absolute;
+    left: 65px;
+    top: 74px;
+}
+
+.bao-div1 {
+    display: flex;
+    justify-content: center;
+}
+
+.bao-div2 {
+    width: 200px;
+    height: 298px;
+    background: #333333;
+    border-radius: 1px;
+    position: relative;
+}
+
+.bao-div2 h2 {
+    width: 98px;
+    height: 30px;
+    font-size: 24px;
+    font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+    font-weight: bold;
+    color: #FFFFFF;
+    opacity: 0.8;
+    line-height: 30px;
+    position: absolute;
+    top: 40px;
+    left: 18px;
+}
+
+.bao-div3 {
+    width: 28px;
+    height: 1px;
+    /* margin-top: 16px;
+        margin-bottom: 16px; */
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 86px;
+    left: 18px;
+}
+
+.bao-div2 p {
+    width: 162px;
+    height: 145px;
+    font-size: 18px;
+    font-family: MicrosoftYaHei;
+    color: #FFFFFF;
+    opacity: 0.5;
+    line-height: 29px;
+    position: absolute;
+    top: 103px;
+    left: 18px;
+}
+
+
+/* 底部 */
+
+.foot {
+    /* width: 749px; */
+    margin: 0 auto;
+    margin-top: 40px;
+    height: 200px;
+    background: #303234;
+    overflow: hidden;
+    position: relative;
+}
+
+.div {
+    display: flex;
+    margin: 41px 0 10px 31px;
+}
+
+.div .div-img1 {
+    width: 56px;
+    height: 56px;
+    margin-right: 22px;
+}
+
+.div .div-img2 {
+    width: 173px;
+    height: 40px;
+    display: block;
+    margin: auto 0;
+}
+
+.foot #p {
+    /* width: 283px; */
+    /* height: 24px; */
+    font-size: 20px;
+    font-family: MicrosoftYaHei;
+    color: #FFFFFF;
+    line-height: 26px;
+    padding-left: 31px;
+    margin-bottom: 12px;
+    opacity: 0.8;
+}
+
+.foot #p2 {
+    /* height: 26px; */
+    font-size: 20px;
+    font-family: MicrosoftYaHei;
+    color: #C1C1C1;
+    line-height: 26px;
+    padding-left: 30px;
+}
+
+.foot .d1 {
+    width: 96px;
+    position: absolute;
+    top: 36px;
+    right: 30px;
+}
+
+.foot .d1 img {
+    width: 96px;
+    height: 96px;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.foot .d1 p {
+    height: 24px;
+    font-size: 18px;
+    font-family: MicrosoftYaHei;
+    color: #C8C8C8;
+    line-height: 24px;
+    text-align: center;
+}
+
+.foot-b {
+    /* width: 749px; */
+    margin: 0 auto;
+    height: 52px;
+    display: flex;
+    background: #26282A;
+    justify-content: center;
+}
+
+.foot-b p {
+    font-size: 20px;
+    font-family: MicrosoftYaHei;
+    color: #9A9A9A;
+    line-height: 52px;
+    text-align: center;
+}
+
+.foot-b img {
+    width: 18px;
+    height: 19px;
+    display: block;
+    margin: auto 0;
+    margin-right: 8px;
+}

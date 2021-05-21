@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ZH-hans">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script>
+        const WIDTH = 750
+        const mobileAdapter = () => {
+            let scale = screen.width / WIDTH
+            let content = `width=${WIDTH}, initial-scale=${scale}, maximum-scale=${scale}, minimum-scale=${scale}`
+            let meta = document.querySelector('meta[name=viewport]')
+            if (!meta) {
+                meta = document.createElement('meta')
+                meta.setAttribute('name', 'viewport')
+                document.head.appendChild(meta)
+            }
+            meta.setAttribute('content', content)
+        }
+        mobileAdapter()
+        window.onorientationchange = mobileAdapter
+    </script>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>News-details</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- 导航头开始 -->
+
+    <div class="head">
+        <img src="./images/1.png" class="im1">
+        <img src="./images/2.png" class="im2">
+        <img src="./images/logo6.png" class="im3" id="img">
+        <div class="nav" id="nav">
+            <ul>
+                <li><a>首页</a></li>
+                <li><a>游戏产品</a></li>
+                <li><a>代理加盟</a></li>
+                <li><a>手游联运</a></li>
+                <li><a>新闻资讯</a></li>
+                <li><a>联系我们</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- 导航下面的图 -->
+    <div class="nav-img">
+        <div class="imgdiv">NEWS INFORMAYION</div>
+        <div class="imgdiv2">新闻资讯</div>
+    </div>
+
+
+    <!-- 手游行业 -->
+    <div id="shou">
+        <div class="shou">
+            <h2>威狐手游行业与其他行业的优势对比</h2>
+            <span>时间 : 2021-05-19 15:07 &nbsp;&nbsp;&nbsp;浏览次数：148</span>
+            <hr>
+
+        </div>
+    </div>
+
+    <!-- 内容部分 -->
+    <article>
+        <p id="p1">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 现在很多人都知道做手游代理是多么多么的赚钱，但是很多人都怕这个行业不靠谱。让我们来看看当今手机游戏行业相对于其他行业的优势。手机游戏代理是互联网行业的新兴行业。随着手机游戏市场份额的上升，越来越多的人关注这个行业，为整个游戏行业的发展创造了更多的发展空间。
+        </p>
+        <img src="./images/artical.png" alt="">
+        <p id="p2">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 与其他行业相比，创业门槛很低，是人们创业的好选择。相比传统行业的大投资，手游代理的投资成本在1万元左右，是中小投资者的优质选择。加入手游代理抓住机会很重要。一旦错过了这个抓住机会的时机，就很难在后续跟上市场。1万元以内的投资金额，更容易让手游代理投资人接受，让更多人有机会实现自己的价值。手游代理很适合上班族或者想创业的人。不需要经验、不需要大额资金，不需要设备、不需要员工。在手游行业创业，无疑是一种福利。但是，创业的路上有很多风暴。作为一个创业者，一定要睁大眼睛，尤其是在选择手机游戏代理平台的时候，一定要多方面仔细审核，避免割韭菜。相对于专业的手游代理，比如威狐手游代理，平台完全合格，专业技术培训、稳定优质游戏资源，完善的多对一售后协助，无需担心创业，帮助手游代理投资人运营推广，无需担心无法推广游戏。
+
+
+        </p>
+        <hr style="border:1px dashed #E4E4E4; height: 1px; width: 697px;margin: 60px auto;">
+
+        <p id="p3"><a href="#">上一篇：代理游戏后如何去运营？</a></p>
+        <p id="p3"><a href="#">下一篇：手游代理专服怎么做？</a></p>
+    </article>
+
+
+    <!-- 底部 -->
+    <div class="foot">
+        <div class="div">
+            <img class="div-img1" src="./images/logo01.png" alt="">
+            <img class="div-img2" src="./images/logo1.png" alt="">
+        </div>
+        <p id="p">游戏创业一站式技术服务提供商</p>
+        <!-- <p id="p1">电话：010-83983938&emsp;&emsp;&emsp;&emsp;邮箱：ccsy@163.com</p> -->
+        <p id="p2">地址：武汉市江夏区现代光谷世贸中心C栋一单元1501</p>
+        <div class="d1">
+            <img src="./images/qr.png" alt="">
+            <p>关注我们</p>
+        </div>
+    </div>
+    <div class="foot-b">
+        <img src="./images/logo.png" alt="">
+        <p>© 2020 创朝 - 手游代理手游加盟 鄂ICP备2021006020号-1</p>
+    </div>
+
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        // 显示隐藏
+        function $(id) {
+            return document.getElementById(id);
+        }
+        window.onload = function() {
+            document.onclick = function(e) {
+                $("nav").style.display = "none";
+            }
+            $("img").onclick = function(e) {
+                // $("pop").style.display = "block";
+                var pop = document.getElementById("nav");
+                if (pop.style.display == "block") {
+                    //对当前状态的判断
+                    $("nav").style.display = "none";
+                } else {
+                    $("nav").style.display = "block";
+                }
+                e = e || event;
+                stopFunc(e);
+            }
+            $("nav").onclick = function(e) {
+                e = e || event;
+                stopFunc(e);
+            }
+        }
+
+        function stopFunc(e) {
+            e.stopPropagation ? e.stopPropagation() : e.cancelBubble = true;
+        }
+    </script>
+</body>
+
+</html>

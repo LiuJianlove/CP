@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script>
+        const WIDTH = 750
+        const mobileAdapter = () => {
+            let scale = screen.width / WIDTH
+            let content = `width=${WIDTH}, initial-scale=${scale}, maximum-scale=${scale}, minimum-scale=${scale}`
+            let meta = document.querySelector('meta[name=viewport]')
+            if (!meta) {
+                meta = document.createElement('meta')
+                meta.setAttribute('name', 'viewport')
+                document.head.appendChild(meta)
+            }
+            meta.setAttribute('content', content)
+        }
+        mobileAdapter()
+        window.onorientationchange = mobileAdapter
+    </script>
+
+    <title>Agent</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+
+</head>
+
+<body>
+    <!-- 导航头开始 -->
+
+    <div class="head">
+        <img src="./images/1.png" class="im1">
+        <img src="./images/2.png" class="im2">
+        <img src="./images/logo6.png" class="im3" id="img">
+        <div class="nav" id="nav">
+            <ul>
+                <li><a>首页</a></li>
+                <li><a>游戏产品</a></li>
+                <li><a>代理加盟</a></li>
+                <li><a>手游联运</a></li>
+                <li><a>新闻资讯</a></li>
+                <li><a>联系我们</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- 导航下面的图 -->
+    <div class="nav-img">
+        <div class="imgdiv">代理加盟</div>
+        <div class="imgdiv2">AGENT TO JOIN</div>
+    </div>
+
+    <!-- 主营游戏 -->
+    <div class="game">
+        <div class="span">
+            <img src="./images/3.png" alt="">
+            <span>主营游戏</span>
+            <img src="./images/4.png" alt="">
+        </div>
+        <div class="game-list">
+            <div class="bt">
+                <img class="game-img" src="./images/03.png" alt="">
+                <div>
+                    <div class="game-div">
+                        <div>
+                            <img src="./images/8.png">
+                            <span>免费送VIP和元宝</span>
+                        </div>
+                        <div class="game-div2">
+                            <img src="./images/8.png">
+                            <span>免费送VIP和元宝</span>
+                        </div>
+                        <div>
+                            <img src="./images/8.png">
+                            <span>免费送VIP和元宝</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="in">
+                <img class="game-img" src="./images/04.png" alt="">
+                <div>
+                    <div class="game-div">
+                        <div>
+                            <img src="./images/8.png">
+                            <span>市面最火爆游戏</span>
+                        </div>
+                        <div class="game-div2">
+                            <img src="./images/8.png">
+                            <span>官方正版授权</span>
+                        </div>
+                        <div>
+                            <img src="./images/8.png">
+                            <span>用户基数大</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gm">
+                <img class="game-img" src="./images/05.png" alt="">
+                <div>
+                    <div class="game-div">
+                        <div>
+                            <img src="./images/8.png">
+                            <span>最高权限手游</span>
+                        </div>
+                        <div class="game-div2">
+                            <img src="./images/8.png">
+                            <span>自动刷元宝，等级秒升</span>
+                        </div>
+                        <div class="game-div3">
+                            <img src="./images/8.png">
+                            <span>装备自选，自助转区</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- 运营培训 -->
+    <div class="yun">
+        <img src="./images/5.png" alt="">
+        <div class="yun-div">
+            <h1>运营培训</h1>
+            <p class="p1">专业的运营团队，独家精准获客渠道，让游戏推广毫无压力</p>
+            <p class="p2"> 我们为您提供游戏运营全过程的指导培训服务。包含以下内容：游戏代理、游戏 发行、口碑打造、运营方案、推广 方法、数据分析、执行力提高、激励与考核、团队凝聚力提升。
+            </p>
+        </div>
+    </div>
+
+    <!-- 合作流程 -->
+    <div id="he">
+        <div class="span">
+            <img src="./images/3.png" alt="">
+            <span>合作流程</span>
+            <img src="./images/4.png" alt="">
+        </div>
+
+        <img class="he-img" src="./images/6.png" alt="">
+        <ul>
+            <li>确定项目</li>
+            <li>签订合同</li>
+            <li>运营培训</li>
+            <li>平台搭建</li>
+            <li class="he-li">游戏推广</li>
+        </ul>
+    </div>
+    <!-- 保姆 -->
+    <div id="bao">
+        <div class="baobao">
+            <div class="bao">
+                <div class="bao-div"></div>
+                <span class="bao-span">保姆式扶持</span>
+
+
+                <p class="bao-p">创朝手游，拥有成熟的培训管理、广阔开放的平台，共享产品资源等创业公司所需服务板块 火热潮流手游，专业品牌宣传，多年运营经验，雄厚技术实力等更多项目优势，让创业伙伴简单运营，省心创业</p>
+            </div>
+        </div>
+
+        <div class="bao-div1">
+            <div class="bao-div2">
+                <h2>创朝手游</h2>
+                <div class="bao-div3"></div>
+                <p>创朝手游拥有雄厚的实力和海量手游平台资源 ，精准定位热门手游，自身商务团队开展精细化运营。
+                </p>
+
+            </div>
+            <img src="./images/10.png" alt="">
+        </div>
+
+    </div>
+    <!-- 底部 -->
+    <div class="foot">
+        <div class="div">
+            <img class="div-img1" src="./images/logo01.png" alt="">
+            <img class="div-img2" src="./images/logo1.png" alt="">
+        </div>
+        <p id="p">游戏创业一站式技术服务提供商</p>
+        <!-- <p id="p1">电话：010-83983938&emsp;&emsp;&emsp;&emsp;邮箱：ccsy@163.com</p> -->
+        <p id="p2">地址：武汉市江夏区现代光谷世贸中心C栋一单元1501</p>
+        <div class="d1">
+            <img src="./images/qr.png" alt="">
+            <p>关注我们</p>
+        </div>
+    </div>
+    <div class="foot-b">
+        <img src="./images/logo.png" alt="">
+        <p>© 2020 创朝 - 手游代理手游加盟 鄂ICP备2021006020号-1</p>
+    </div>
+
+
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        // 显示隐藏
+
+        function $(id) {
+            return document.getElementById(id);
+        }
+        window.onload = function() {
+            document.onclick = function(e) {
+                $("nav").style.display = "none";
+            }
+            $("img").onclick = function(e) {
+                // $("pop").style.display = "block";
+                var pop = document.getElementById("nav");
+                if (pop.style.display == "block") {
+                    //对当前状态的判断
+                    $("nav").style.display = "none";
+                } else {
+                    $("nav").style.display = "block";
+                }
+                e = e || event;
+                stopFunc(e);
+            }
+            $("nav").onclick = function(e) {
+                e = e || event;
+                stopFunc(e);
+            }
+        }
+
+        function stopFunc(e) {
+            e.stopPropagation ? e.stopPropagation() : e.cancelBubble = true;
+        }
+    </script>
+
+</body>
+
+</html>
