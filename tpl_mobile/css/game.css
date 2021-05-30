@@ -1,0 +1,281 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* 导航下面的图 */
+
+.nav-img {
+    height: 2.6rem;
+    background: url(../images/game/12.png) no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imgdiv {
+    /* width: 1.29rem; */
+    height: 0.42rem;
+    font-size: 0.32rem;
+    font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 0.42rem;
+    /* margin-bottom: 0.12rem; */
+}
+
+.imgdiv2 {
+    /* width: 1.36rem; */
+    height: 0.21rem;
+    font-size: 0.16rem;
+    font-family: MicrosoftYaHei;
+    color: #FFFFFF;
+    line-height: 0.21rem;
+    padding-top: 0.12rem;
+}
+
+
+/* 图 */
+
+#pic {
+    margin-top: 0.85rem;
+}
+
+.pic {
+    display: flex;
+    justify-content: center;
+}
+
+.pic img {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.82rem;
+}
+
+.pic1 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.pic8 {
+    margin-right: 0 !important;
+}
+
+
+/* 游戏特色 */
+
+.span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.73rem;
+    margin-bottom: 0.36rem;
+}
+
+.span img {
+    width: 0.34rem;
+    height: 0.34rem;
+}
+
+.span span {
+    /* width: 1.12rem; */
+    height: 0.37rem;
+    font-size: 0.28rem;
+    font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+    font-weight: bold;
+    color: #333333;
+    line-height: 0.37rem;
+    margin-left: 0.26rem;
+    margin-right: 0.26rem;
+}
+
+
+/* 轮播 */
+
+.swiper-container {
+    width: 6.6rem;
+    height: 3.02rem;
+    position: relative;
+}
+
+.swiper-container {
+    background: #999;
+    width: 6.6rem;
+    height: 3.02rem;
+    box-sizing: border-box;
+}
+
+
+/*.nav-swipper .swiper-wrapper{margin: 0rem 0.24rem;}*/
+
+.swiper-slide {
+    width: 6.6rem;
+    height: 3.02rem;
+    margin: 0rem;
+    text-align: center;
+    align-items: center;
+}
+
+.swipper {
+    width: 7.2rem;
+    margin: 0 auto;
+    padding: 0rem 0.24rem;
+    position: relative;
+    /* background-color: sandybrown; */
+}
+
+.swipper .swiper-button-prev {
+    top: 50%;
+    /* background-image: url(../images/swiper-pre.png); */
+    color: rgba(0, 0, 0, 0)!important;
+    background: url("../images/game/left.png") center center no-repeat;
+    background-size: 0.5rem 0.5rem;
+    left: 0;
+    /* right: auto; */
+    width: 0.16rem;
+    height: 0.5rem;
+}
+
+.swipper .swiper-button-next {
+    top: 50%;
+    /* background-image: url(../images/swiper-next.png); */
+    color: rgba(0, 0, 0, 0)!important;
+    background: url("../images/game/right.png") center center no-repeat;
+    background-size: 0.5rem 0.5rem;
+    /* left: auto; */
+    right: 0;
+    width: 0.16rem;
+    height: 0.5rem;
+}
+
+
+/* 轮播下面的图 */
+
+.pics {
+    width: 6.6rem;
+    /* height: 1.42rem; */
+    height: 1.25rem;
+    margin: 0 auto;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    /* margin-top: 0.15rem;
+    margin-bottom: 0.08rem;  */
+}
+
+.pics::-webkit-scrollbar {
+    height: 0.04rem;
+    width: 6.6rem;
+}
+
+.pics::-webkit-scrollbar-thumb {
+    /*滚动条里面小方块*/
+    border-radius: 0.04rem;
+    background-color: #6AAEFF;
+}
+
+.pics::-webkit-scrollbar-track {
+    /*滚动条里面轨道*/
+    background: #F0F0F0;
+}
+
+.pics img {
+    width: 1.4rem;
+    height: 0.8rem;
+    margin-right: 0.09rem;
+    margin-left: -0.3rem;
+}
+
+
+/* 我们的客户 */
+
+.spans {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.73rem;
+    margin-bottom: 0.36rem;
+}
+
+.spans img {
+    width: 0.34rem;
+    height: 0.34rem;
+}
+
+.spans span {
+    /* width: 1.4rem; */
+    height: 0.37rem;
+    font-size: 0.28rem;
+    font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+    font-weight: bold;
+    color: #333333;
+    line-height: 0.37rem;
+    margin-left: 0.26rem;
+    margin-right: 0.26rem;
+}
+
+
+/* 接近底部的图 */
+
+#picc {
+    margin-top: 0.41rem;
+    margin-bottom: 0.62rem;
+}
+
+.picc {
+    display: flex;
+    justify-content: center;
+}
+
+.picc img {
+    width: 1.16rem;
+    height: 0.34rem;
+}
+
+#picc {
+    margin-top: 0.41rem;
+    margin-bottom: 0.42rem;
+}
+
+.picc {
+    display: flex;
+    justify-content: center;
+}
+
+.picc .no {
+    margin-right: 0 !important;
+}
+
+.picc div {
+    width: 1.25rem;
+    height: 0.66rem;
+    margin-right: 0.2rem;
+    box-shadow: 0rem 0rem 0.06rem 0.02rem rgba(70, 70, 70, 0.17);
+    border-radius: 0.06rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* .picc div img:hover {
+    transition: all 0.5s;
+    transform: scale(1.04);
+} */
+
+.picc1 {
+    margin-top: 0.22rem;
+    margin-bottom: 0.22rem;
+}

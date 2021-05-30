@@ -1,0 +1,95 @@
+/* 底部 */
+.foot{
+    width: 100%;
+    height: 2.18rem;
+    background: #303234;
+    overflow: hidden;
+    position: relative;
+}
+.div{
+    display: flex;
+    margin: 0.41rem 0 0.1rem 0.31rem;
+}
+.div .img1{
+    width: 0.56rem;
+    height: 0.56rem;
+    margin-right: 0.22rem;
+}
+.div .img2{
+    width: 1.73rem;
+    height: 0.4rem;
+    display: block;
+    margin: auto 0;
+}
+.foot .p{
+    height: 0.24rem;
+    font-size: 0.18rem;
+    font-family: MicrosoftYaHei;
+    color: #FFFFFF;
+    line-height: 0.24rem;
+    padding-left:0.31rem;
+    margin-bottom: 0.16rem;
+    opacity: 0.8;
+}
+.foot .p1{
+    height: 0.26rem;
+    font-size: 0.20rem;
+    font-family: MicrosoftYaHei;
+    color: #C1C1C1;
+    line-height: 0.26rem;
+    padding-left: 0.3rem;
+    margin-bottom: 0.04rem;
+}
+.foot .p2{
+    /* width: 5.80rem; */
+    height: 0.26rem;
+    font-size: 0.20rem;
+    font-family: MicrosoftYaHei;
+    color: #C1C1C1;
+    line-height: 0.26rem;
+    padding-left: 0.3rem;
+}
+.foot .d1{
+    width: 1.56rem;
+    /* height: 0.96rem; */
+    position: absolute;
+    top: 0.36rem;
+    right: 0rem;
+}
+.foot .d1 img{
+    width: 0.96rem;
+    height: 0.96rem;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.12rem;
+}
+.foot .d1 p{
+    height: 0.24rem;
+    font-size: 0.18rem;
+    font-family: MicrosoftYaHei;
+    color: #C8C8C8;
+    line-height: 0.24rem;
+    text-align: center;
+}
+.foot-b{
+    width: 100%;
+    height: 0.52rem;
+    display: flex;
+    background: #26282A;
+    justify-content: center;
+}
+.foot-b p{
+    font-size: 0.18rem;
+    font-family: MicrosoftYaHei;
+    color: #9A9A9A;
+    line-height: 0.52rem;
+    text-align: center;
+    
+}
+.foot-b img{
+    width: 0.18rem;
+    height: 0.19rem;
+    display: block;
+    margin: auto 0;
+    margin-right: 0.08rem;
+}

@@ -1,0 +1,144 @@
+/* 导航下面的图 */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-img {
+    height: 2.6rem;
+    background: url(../images/news-details/news.png) no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+.imgdiv {
+    /* width: 1.36rem; */
+    /* height: 0.45rem; */
+    font-size: 0.34rem;
+    font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 0.45rem;
+    margin-bottom: 0.17rem;
+    margin-left: 0.36rem;
+}
+
+.imgdiv2 {
+    /* width: 1.36rem; */
+    /* height: 0.45rem; */
+    font-size: 0.34rem;
+    font-family: MicrosoftYaHei;
+    color: #FFFFFF;
+    line-height: 0.45rem;
+    margin-left: 0.36rem;
+}
+
+
+/* 手游行业 */
+
+.shou {
+    margin-left: 0.32rem;
+}
+
+.shou h2 {
+    /* width: 4.16rem; */
+    /* height: 0.35rem; */
+    font-size: 0.26rem;
+    font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+    font-weight: bold;
+    color: #333333;
+    line-height: 0.35rem;
+    margin-top: 0.3rem;
+    margin-bottom: -0.6rem;
+}
+
+.shou span {
+    height: 0.26rem;
+    font-size: 0.2rem;
+    font-family: MicrosoftYaHei;
+    color: #999999;
+    line-height: 0.26rem;
+}
+
+.shou hr {
+    margin-top: 0.09rem;
+    width: 6.97rem;
+}
+
+#p1 {
+    /* width: 6.9rem; */
+    /* height: 1.5rem; */
+    font-size: 0.2rem;
+    font-family: MicrosoftYaHei;
+    color: #666666;
+    line-height: 0.48rem;
+    margin-bottom: 0.16rem;
+}
+
+#p2 {
+    /* width: 6.9rem; */
+    /* height: 1.5rem; */
+    font-size: 0.2rem;
+    font-family: MicrosoftYaHei;
+    color: #666666;
+    line-height: 0.48rem;
+    margin-top: 0.1rem;
+}
+
+article {
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+}
+
+article img {
+    width: 6.9rem;
+    height: 3.4rem;
+}
+
+article #p3 {
+    /* width: 3rem; */
+    /* height: 0.26rem; */
+    font-size: 0.2rem;
+    font-family: MicrosoftYaHei;
+    color: #666666;
+    line-height: 0.26rem;
+}
+
+
+/* #p4 {
+    margin-bottom: 1rem;
+} */
+
+article #p3 a {
+    text-decoration: none;
+    font-size: 0.2rem;
+    font-family: MicrosoftYaHei;
+    color: #666666;
+    line-height: 0.26rem;
+    display: block;
+    margin-bottom: 0.14rem;
+}
+
+article hr {
+    border: 1px dashed #E4E4E4;
+    height: 1px;
+    width: 6.97rem;
+    margin: 0.6rem auto;
+}
+
+.artical-div {
+    margin-bottom: 1rem;
+}
